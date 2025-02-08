@@ -4,7 +4,7 @@
 String a;
 #include <Adafruit_GFX.h>    // Core graphics library
 #include <Adafruit_TFTLCD.h> // Hardware-specific library
-#include <TouchScreen.h>
+#include <TouchScreen.h>    // touchscreen library
 
 #if defined(__SAM3X8E__)
     #undef __FlashStringHelper::F(string_literal)
